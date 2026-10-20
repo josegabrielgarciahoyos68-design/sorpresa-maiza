@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Para mi pollita, Maiza ❤️</title>
+<style>
+body{margin:0;background:#fff0f5;color:#743c53;font-family:Georgia,serif;text-align:center}
+section{padding:30px 18px;min-height:80vh;display:flex;align-items:center;justify-content:center;flex-direction:column}
+.card{background:white;padding:25px;border-radius:25px;max-width:650px;box-shadow:0 5px 25px #e8b7c9}
+h1{color:#d34f82;font-size:2.2em}
+p{line-height:1.9;font-size:18px}
+button{background:#d34f82;color:white;border:0;padding:15px 22px;border-radius:25px;font-size:17px;margin:12px;cursor:pointer}
+.hidden{display:none!important}
+img,video{width:100%;max-width:420px;border-radius:15px;margin:10px 0}
+audio{width:100%;margin:15px 0}
+</style>
+</head>
+<body>
+<section id="inicio"><div class="card">
+<div style="font-size:60px">🐥❤️</div>
+<h1>Maiza, ¿quieres ser mi pollita para siempre?</h1>
+<p>Preparé esta sorpresa especialmente para ti, con todo mi cariño.</p>
+<button onclick="document.getElementById('inicio').classList.add('hidden');document.getElementById('sobre').classList.remove('hidden')">Sííí, quiero 💕</button>
+</div></section>
+<section id="sobre" class="hidden"><div class="card">
+<div style="font-size:60px">💌🌷</div><h1>Una cartita para ti</h1>
+<p>Hay algo muy bonito que quiero decirte, mi pollita hermosa.</p>
+<button onclick="document.getElementById('sobre').classList.add('hidden');document.getElementById('carta').classList.remove('hidden')">Abrir mi cartita 💌</button>
+</div></section>
+<section id="carta" class="hidden"><div class="card">
+<h1>Mi pollita hermosa ❤️</h1>
+<p>Mi Maiza hermosa, hice esta pequeña sorpresa pensando en ti. Quería regalarte algo diferente, algo que pudieras abrir y leer sabiendo que cada palabra fue preparada con muchísimo cariño.</p>
+<p>Quiero que tengas muchos motivos para sonreír, que nunca dejes de creer en ti y que recuerdes lo especial que eres. Tu manera de ser, nuestras conversaciones y esos pequeños momentos que compartimos pueden convertir un día común en un recuerdo bonito.</p>
+<p>Me encantaría que sigamos creando recuerdos, riéndonos por tonterías, compartiendo canciones, hablando de nuestros sueños y acompañándonos en los días fáciles y también en los complicados.</p>
+<p>No todo en la vida será perfecto, pero creo que las cosas bonitas se construyen con sinceridad, paciencia, respeto y pequeños detalles. Quiero que siempre puedas ser tú misma, expresar lo que sientes y perseguir todo aquello que te haga feliz.</p>
+<p>Ojalá esta cartita te saque una sonrisa cada vez que la leas. Gracias por formar parte de mis recuerdos bonitos. Esta sorpresa es sencilla, pero la preparé con una ilusión enorme, imaginando tu carita al descubrirla.</p>
+<p>Mi pollita, nunca olvides que mereces cariño sincero, respeto y muchísimas alegrías. Sigue soñando, creciendo y siendo tú.</p>
+<h2>La persona que siempre quiere verte sonreír ❤️</h2>
+</div>
+<div class="card" style="margin-top:20px">
+<h2>🎶 Nuestra canción</h2>
+<p>Ámame — El Gran Combo de Puerto Rico</p>
+<audio controls><source src="media/cancion.mp3" type="audio/mpeg"></audio>
+<p>El reproductor necesita que añadas tu archivo MP3.</p>
+</div>
+<div class="card" style="margin-top:20px">
+<h2>Nuestros recuerdos 📸</h2>
+<p>Cuando subas tus fotos, aparecerán aquí.</p>
+<img src="media/foto1.jpg" alt="Nuestro recuerdo">
+<img src="media/foto2.jpg" alt="Otro recuerdo">
+</div>
+<div class="card" style="margin-top:20px">
+<h2>Momentitos especiales 🎥</h2>
+<video controls playsinline><source src="media/video1.mp4" type="video/mp4"></video>
+</div>
+<p>Hecho con cariño para mi pollita 🐥❤️</p>
+</section>
+</body>
+</html>
